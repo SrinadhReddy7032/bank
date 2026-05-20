@@ -10,4 +10,9 @@ class TestController {
     public String hello() {
         return "Hello Jenkins";
     }
+
+    @GetMapping("/getCustomer")
+    public String getCustomer() {
+        return "Hello Srinadh Reddy";
+    }
 }
